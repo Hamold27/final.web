@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+button{
+  color: rgb(255, 255, 255);  
+  background-color: #fc5a40;
+  display: block;
+    padding: 10px 16px;
+    margin: 8px auto;
+    width: 330px;
+    /*border=>邊框設定(全部一起設定)
+    border-color=>邊框顏色
+    border-style=>邊框樣式
+    */
+    border: #fc5a40 solid 2px;
+    /*border-radius=>圓角設定*/
+    border-radius: 70px;
+    /*
+    28行的border可以分開設定，寫法為
+    border-color: #e0dddd;
+    border-style: solid;
+    border-width: 2px;*/
+}
